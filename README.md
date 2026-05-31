@@ -1,6 +1,3 @@
-# 🎬 Movie Ticket Reservation System
-
-Movie Ticket Reservation System is a backend application developed using **Spring Boot** that manages movies, theaters, shows, users, and ticket bookings through REST APIs. The project implements CRUD operations, database integration, and a layered backend architecture commonly used in real-world applications.
 
 # 🎬 Movie Ticket Reservation System
 
@@ -10,7 +7,7 @@ Movie Ticket Reservation System is a backend application developed using **Sprin
 ![REST API](https://img.shields.io/badge/API-REST-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A backend REST API application built with **Spring Boot** that manages movies, theaters, shows, users, and ticket bookings.
+A backend REST API application built with **Spring Boot** that manages movies, theaters, shows, users, and ticket bookings.The project implements CRUD operations, database integration, and a layered backend architecture commonly used in real-world applications.
 
 ---
 
