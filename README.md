@@ -78,7 +78,7 @@ src/main/java/com/example/project/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/movie-ticket-reservation-system.git
+git clone https://github.com/Subi121/movie-ticket-reservation-system.git
 cd movie-ticket-reservation-system
 ```
 
