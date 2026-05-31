@@ -82,7 +82,7 @@ git clone https://github.com/your-username/movie-ticket-reservation-system.git
 cd movie-ticket-reservation-system
 ```
 
----
+
 
 ## Configure Database
 
@@ -102,7 +102,7 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 ```
 
----
+
 
 ## Configure Email
 
@@ -111,7 +111,7 @@ spring.mail.username=your_email@gmail.com
 spring.mail.password=your_app_password
 ```
 
----
+
 
 ## Run the Application
 
@@ -129,8 +129,6 @@ Test APIs using Postman or Swagger UI.
 
 ---
 
-
----
 
 ## 🚀 Future Improvements
 
