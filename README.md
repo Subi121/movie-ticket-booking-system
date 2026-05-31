@@ -73,7 +73,7 @@ src/main/java/com/example/project/
 
 ---
 
-# ⚙️ Setup & Run
+## ⚙️ Setup & Run
 
 ### Clone the Repository
 
@@ -125,7 +125,7 @@ Application runs at:
 http://localhost:8080
 ```
 
-Test APIs using Postman or Swagger UI.
+Test APIs using **Postman** or **Swagger UI**.
 
 ---
 
