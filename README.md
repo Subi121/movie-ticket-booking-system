@@ -13,7 +13,14 @@ A backend REST API application built with **Spring Boot** that manages movies, t
 
 ## 🛠️ Tech Stack
 
-* Java 17 · Spring Boot · Spring Data JPA · Hibernate · MySQL · Lombok · JavaMailSender · Maven
+* Java 17
+* Spring Boot 
+* Spring Data JPA
+* Hibernate
+* MySQL
+* Lombok
+* JavaMailSender
+* Maven
 
 ---
 
