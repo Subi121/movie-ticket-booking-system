@@ -75,7 +75,7 @@ src/main/java/com/example/project/
 
 # ⚙️ Setup & Run
 
-## Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/movie-ticket-reservation-system.git
@@ -84,7 +84,7 @@ cd movie-ticket-reservation-system
 
 
 
-## Configure Database
+### Configure Database
 
 Create a MySQL database:
 
@@ -104,7 +104,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 
 
-## Configure Email
+### Configure Email
 
 ```properties
 spring.mail.username=your_email@gmail.com
@@ -113,7 +113,7 @@ spring.mail.password=your_app_password
 
 
 
-## Run the Application
+### Run the Application
 
 ```bash
 mvn spring-boot:run
