@@ -35,7 +35,7 @@ A backend REST API application built with **Spring Boot** that manages movies, t
 ---
 
 ## 📂 Project Structure
-
+```
 src/main/java/com/example/project/
 │
 ├── Controller/
@@ -57,7 +57,7 @@ src/main/java/com/example/project/
     ├── TheaterRepo.java           → JPA queries for Theater
     ├── TicketRepo.java            → JPA queries for Ticket
     └── UserRepo.java              → JPA queries for User
-
+```
 ---
 
 ## 🔗 API Endpoints
