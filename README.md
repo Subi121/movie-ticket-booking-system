@@ -1,5 +1,5 @@
 
-# 🎬 Movie Ticket Reservation System
+# 🎬 Movie Ticket Booking System
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-Backend-brightgreen)
@@ -92,8 +92,8 @@ src/main/java/com/example/project/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Subi121/movie-ticket-reservation-system.git
-cd movie-ticket-reservation-system
+git clone https://github.com/Subi121/movie-ticket-booking-system.git
+cd movie-ticket-booking-system
 ```
 
 
