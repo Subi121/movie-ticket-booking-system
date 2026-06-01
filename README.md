@@ -35,7 +35,8 @@ A backend REST API application built with **Spring Boot** that manages movies, t
 ---
 
 ## 📂 Project Structure
-```
+
+```text
 src/main/java/com/example/project/
 │
 ├── Controller/
@@ -44,20 +45,27 @@ src/main/java/com/example/project/
 ├── Service/
 │   └── ProjService.java           → Business logic for all modules
 │
-├── Entity/
+├── Movie/
 │   ├── MovieEntity.java           → Movie table (movieId, title, genre, duration)
-│   ├── ShowEntity.java            → Show table (showId, movieId, theaterId, price)
-│   ├── TheaterEntity.java         → Theater table (theaterId, theaterName, location)
-│   ├── Ticket.java                → Ticket table (ticketId, showId, seatNumber, totalPrice)
-│   └── UserEntity.java            → User table (userId, userName, email, password)
+│   └── MovieRepo.java             → JPA queries for Movie (contains, starts, ends, in, and, or)
 │
-└── Repository/
-    ├── MovieRepo.java             → JPA queries for Movie (contains, starts, ends, in, and, or)
-    ├── ShowRepo.java              → JPA queries for Show
-    ├── TheaterRepo.java           → JPA queries for Theater
-    ├── TicketRepo.java            → JPA queries for Ticket
+├── Theater/
+│   ├── TheaterEntity.java         → Theater table (theaterId, theaterName, location)
+│   └── TheaterRepo.java           → JPA queries for Theater
+│
+├── Show/
+│   ├── ShowEntity.java            → Show table (showId, movieId, theaterId, price)
+│   └── ShowRepo.java              → JPA queries for Show
+│
+├── Ticket/
+│   ├── TicketEntity.java          → Ticket table (ticketId, showId, seatNumber, totalPrice)
+│   └── TicketRepo.java            → JPA queries for Ticket
+│
+└── User/
+    ├── UserEntity.java            → User table (userId, userName, email, password)
     └── UserRepo.java              → JPA queries for User
 ```
+
 ---
 
 ## 🔗 API Endpoints
