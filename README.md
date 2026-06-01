@@ -58,7 +58,7 @@ src/main/java/com/example/project/
 │   └── ShowRepo.java              → JPA queries for Show
 │
 ├── Ticket/
-│   ├── TicketEntity.java          → Ticket table (ticketId, showId, seatNumber, totalPrice)
+│   ├── Ticket.java          → Ticket table (ticketId, showId, seatNumber, totalPrice)
 │   └── TicketRepo.java            → JPA queries for Ticket
 │
 └── User/
