@@ -36,13 +36,27 @@ A backend REST API application built with **Spring Boot** that manages movies, t
 
 ## 📂 Project Structure
 
-```
 src/main/java/com/example/project/
-├── Controller    → REST API request handling
-├── Service       → Business logic
-├── Repository    → JPA database operations
-├── Entity        → Database entity classes
-```
+│
+├── Controller/
+│   └── ProjController.java        → REST API endpoints for all modules
+│
+├── Service/
+│   └── ProjService.java           → Business logic for all modules
+│
+├── Entity/
+│   ├── MovieEntity.java           → Movie table (movieId, title, genre, duration)
+│   ├── ShowEntity.java            → Show table (showId, movieId, theaterId, price)
+│   ├── TheaterEntity.java         → Theater table (theaterId, theaterName, location)
+│   ├── Ticket.java                → Ticket table (ticketId, showId, seatNumber, totalPrice)
+│   └── UserEntity.java            → User table (userId, userName, email, password)
+│
+└── Repository/
+    ├── MovieRepo.java             → JPA queries for Movie (contains, starts, ends, in, and, or)
+    ├── ShowRepo.java              → JPA queries for Show
+    ├── TheaterRepo.java           → JPA queries for Theater
+    ├── TicketRepo.java            → JPA queries for Ticket
+    └── UserRepo.java              → JPA queries for User
 
 ---
 
